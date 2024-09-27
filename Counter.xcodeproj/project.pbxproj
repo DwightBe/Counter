@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		23EA053F2C92A0B9006B35F8 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 23EA053E2C92A0B9006B35F8 /* RealityKitContent */; };
 		23EA05412C92A0B9006B35F8 /* CounterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EA05402C92A0B9006B35F8 /* CounterApp.swift */; };
-		23EA05432C92A0B9006B35F8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EA05422C92A0B9006B35F8 /* ContentView.swift */; };
 		23EA05452C92A0B9006B35F8 /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EA05442C92A0B9006B35F8 /* ImmersiveView.swift */; };
 		23EA05472C92A0BA006B35F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23EA05462C92A0BA006B35F8 /* Assets.xcassets */; };
 		23EA054A2C92A0BA006B35F8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23EA05492C92A0BA006B35F8 /* Preview Assets.xcassets */; };
 		23EA05552C92A0BA006B35F8 /* CounterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EA05542C92A0BA006B35F8 /* CounterTests.swift */; };
+		23EA05682C92B03D006B35F8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EA05672C92B03D006B35F8 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,13 +30,13 @@
 		23EA05392C92A0B9006B35F8 /* Counter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Counter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23EA053D2C92A0B9006B35F8 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
 		23EA05402C92A0B9006B35F8 /* CounterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterApp.swift; sourceTree = "<group>"; };
-		23EA05422C92A0B9006B35F8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		23EA05442C92A0B9006B35F8 /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
 		23EA05462C92A0BA006B35F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		23EA05492C92A0BA006B35F8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		23EA054B2C92A0BA006B35F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		23EA05502C92A0BA006B35F8 /* CounterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CounterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		23EA05542C92A0BA006B35F8 /* CounterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterTests.swift; sourceTree = "<group>"; };
+		23EA05672C92B03D006B35F8 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				23EA05402C92A0B9006B35F8 /* CounterApp.swift */,
-				23EA05422C92A0B9006B35F8 /* ContentView.swift */,
+				23EA05672C92B03D006B35F8 /* ContentView.swift */,
 				23EA05442C92A0B9006B35F8 /* ImmersiveView.swift */,
 				23EA05462C92A0BA006B35F8 /* Assets.xcassets */,
 				23EA054B2C92A0BA006B35F8 /* Info.plist */,
@@ -217,8 +217,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23EA05432C92A0B9006B35F8 /* ContentView.swift in Sources */,
 				23EA05412C92A0B9006B35F8 /* CounterApp.swift in Sources */,
+				23EA05682C92B03D006B35F8 /* ContentView.swift in Sources */,
 				23EA05452C92A0B9006B35F8 /* ImmersiveView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
